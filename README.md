@@ -1,59 +1,50 @@
-# VNM Stock Price Prediction using Machine Learning
+# Dự đoán giá cổ phiếu VNM bằng Machine Learning
 
-## Project Overview
-This project aims to develop a machine learning model capable of predicting the **VNM stock price for the next day** based on historical data. The model is validated using **17 years of historical data** to ensure reliability and accuracy in predictions.
+## Tổng quan dự án
+Dự án này nhằm xây dựng một mô hình machine learning có khả năng **dự đoán giá cổ phiếu VNM vào ngày hôm sau** dựa trên dữ liệu lịch sử. Mô hình được kiểm chứng bằng **17 năm dữ liệu lịch sử** để đảm bảo độ tin cậy và độ chính xác trong dự đoán.
 
-## Features
-- **Historical data simulation for VNM stock**
-- **Data cleaning and visualization**
-- **Machine learning model training for price prediction**
-- **Error evaluation and backtesting over 17 years**
-- **Model improvement with additional predictive features**
+## Tính năng
+- **Mô phỏng dữ liệu lịch sử cho cổ phiếu VNM**
+- **Làm sạch và trực quan hóa dữ liệu**
+- **Huấn luyện mô hình machine learning để dự đoán giá**
+- **Đánh giá sai số và kiểm định mô hình trong 17 năm**
+- **Cải thiện mô hình với các đặc trưng dự báo bổ sung**
 
-## Project Workflow
-1. **Download VNM historical stock data**
-2. **Data Cleaning & Visualization**: Remove inconsistencies and visualize trends
-3. **Set Machine Learning Goals & Train Initial Model**
-4. **Evaluate Errors & Implement Backtesting**: Measure accuracy over a long period
-5. **Enhance Model with Additional Predictive Features**
+## Quy trình thực hiện
+1. **Tải dữ liệu lịch sử cổ phiếu VNM**
+2. **Làm sạch & trực quan hóa dữ liệu**: Loại bỏ điểm bất thường và hiển thị xu hướng
+3. **Đặt mục tiêu ML & huấn luyện mô hình ban đầu**
+4. **Đánh giá sai số & kiểm định mô hình**: Đo lường độ chính xác qua thời gian dài
+5. **Cải tiến mô hình với các đặc trưng bổ sung**
 
-## Technologies Used
+## Công nghệ sử dụng
 - **Python**
-- **Pandas, NumPy** (Data processing)
-- **Matplotlib, Seaborn** (Visualization)
-- **Scikit-learn** (Machine learning models)
-- **Backtesting framework** (Model validation)
+- **Pandas, NumPy** (Xử lý dữ liệu)
+- **Matplotlib, Seaborn** (Trực quan hóa dữ liệu)
+- **Scikit-learn** (Mô hình machine learning)
+- **Backtesting framework** (Xác thực mô hình)
 
-## Getting Started
-### Prerequisites
-Ensure you have the following installed:
+## Bắt đầu sử dụng
+### Yêu cầu hệ thống
+Đảm bảo bạn đã cài đặt:
 - Python 3.x
-- Required libraries (install using `pip install -r requirements.txt`)
+- Các thư viện cần thiết (cài đặt bằng `pip install -r requirements.txt`)
 
-### Installation
-1. Clone the repository:
+### Cài đặt
+1. Tải mã nguồn từ GitHub:
    ```sh
    git clone https://github.com/your-repo/vnm-stock-prediction.git
    cd vnm-stock-prediction
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the model:
-   ```sh
-   python main.py
-   ```
 
-## Results & Evaluation
-The project includes **backtesting analysis** to assess the model’s performance over a 17-year period, ensuring confidence in its predictions.
+## Kết quả & Đánh giá
+Dự án bao gồm **phân tích backtesting** để đánh giá hiệu suất của mô hình trong suốt 17 năm, đảm bảo độ tin cậy cho các dự đoán.
 
-## Future Improvements
-- Integrating **deep learning models** for better accuracy
-- Adding **macroeconomic indicators** to enhance predictions
-- Implementing **real-time data updates**
+## Cải tiến trong tương lai
+- Tích hợp **mô hình deep learning** để cải thiện độ chính xác
+- Bổ sung **các chỉ số kinh tế vĩ mô** để tăng khả năng dự đoán
+- Triển khai **cập nhật dữ liệu theo thời gian thực**
 
-## References
+## Tham khảo
 - Historical stock data sourced from [VanEck Vectors Vietnam ETF (VNM ETF)]
 - [Predict The Stock Market With Machine Learning And Python](https://www.youtube.com/watch?v=1O_BenficgE)
 
